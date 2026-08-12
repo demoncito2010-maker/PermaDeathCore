@@ -1,0 +1,816 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description"
+        content="PermaDeathCore - La experiencia Minecraft donde cada día aumenta el peligro.">
+
+    <meta name="theme-color" content="#0b0f0c">
+
+    <title>PermaDeathCore | Minecraft Hardcore</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Rajdhani:wght@500;600;700&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- LOADING -->
+
+    <div id="loading-screen">
+
+        <div class="loader">
+
+            <div class="loader-icon">☠</div>
+
+            <div class="loader-title">
+                PERMADEATHCORE
+            </div>
+
+            <div class="loader-bar">
+                <span></span>
+            </div>
+
+            <p>
+                Preparando el mundo...
+            </p>
+
+        </div>
+
+    </div>
+
+
+    <!-- BACKGROUND -->
+
+    <div class="background">
+
+        <div class="grid"></div>
+
+        <div class="glow glow-one"></div>
+        <div class="glow glow-two"></div>
+
+        <div id="particles"></div>
+
+    </div>
+
+
+    <!-- NAVBAR -->
+
+    <header class="navbar">
+
+        <div class="nav-container">
+
+            <a href="#inicio" class="logo">
+
+                <span class="logo-icon">☠</span>
+
+                <span>
+                    PERMA<span>DEATH</span>CORE
+                </span>
+
+            </a>
+
+            <nav class="nav-links">
+
+                <a href="#inicio" class="active">
+                    Inicio
+                </a>
+
+                <a href="#sobre">
+                    Sobre el plugin
+                </a>
+
+                <a href="#dificultades">
+                    Dificultades
+                </a>
+
+                <a href="#mecanicas">
+                    Mecánicas
+                </a>
+
+            </nav>
+
+            <a href="#dificultades" class="nav-button">
+                VER DIFICULTADES
+            </a>
+
+        </div>
+
+    </header>
+
+
+    <!-- SIDE PANEL -->
+
+    <aside class="side-panel">
+
+        <div class="side-line">
+            <span class="side-progress"></span>
+        </div>
+
+        <div class="side-items">
+
+            <a href="#inicio" class="side-item active">
+                <span>01</span>
+            </a>
+
+            <a href="#sobre" class="side-item">
+                <span>02</span>
+            </a>
+
+            <a href="#dificultades" class="side-item">
+                <span>03</span>
+            </a>
+
+            <a href="#mecanicas" class="side-item">
+                <span>04</span>
+            </a>
+
+            <a href="#final" class="side-item">
+                <span>05</span>
+            </a>
+
+        </div>
+
+    </aside>
+
+
+    <main>
+
+        <!-- HERO -->
+
+        <section id="inicio" class="hero section">
+
+            <div class="hero-content">
+
+                <div class="hero-badge">
+
+                    <span class="status-dot"></span>
+
+                    SERVIDOR HARDCORE
+
+                </div>
+
+                <h1>
+                    SOBREVIVÍ.
+                    <br>
+                    <span>ADAPTATE.</span>
+                    <br>
+                    NO MUERAS.
+                </h1>
+
+                <p class="hero-description">
+                    PermaDeathCore transforma Minecraft en una
+                    experiencia de supervivencia extrema donde
+                    cada etapa trae nuevos peligros.
+                </p>
+
+                <div class="hero-buttons">
+
+                    <a href="#sobre" class="primary-button">
+                        <span>EXPLORAR PLUGIN</span>
+                        <b>→</b>
+                    </a>
+
+                    <a href="#dificultades" class="secondary-button">
+                        VER DIFICULTADES
+                    </a>
+
+                </div>
+
+                <div class="hero-stats">
+
+                    <div class="stat">
+                        <strong>60</strong>
+                        <span>DÍAS</span>
+                    </div>
+
+                    <div class="stat-divider"></div>
+
+                    <div class="stat">
+                        <strong>☠</strong>
+                        <span>PERMADEATH</span>
+                    </div>
+
+                    <div class="stat-divider"></div>
+
+                    <div class="stat">
+                        <strong>∞</strong>
+                        <span>DESAFÍO</span>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <div class="hero-visual">
+
+                <div class="minecraft-frame">
+
+                    <div class="frame-top">
+
+                        <span>PERMADEATHCORE</span>
+
+                        <span>SYSTEM ONLINE</span>
+
+                    </div>
+
+                    <div class="world-display">
+
+                        <div class="moon"></div>
+
+                        <div class="mountain mountain-one"></div>
+
+                        <div class="mountain mountain-two"></div>
+
+                        <div class="ground"></div>
+
+                        <div class="player">
+
+                            <div class="player-head"></div>
+
+                            <div class="player-body"></div>
+
+                            <div class="player-leg left"></div>
+
+                            <div class="player-leg right"></div>
+
+                        </div>
+
+                        <div class="danger-card">
+
+                            <span>☠</span>
+
+                            <div>
+
+                                <strong>DANGER LEVEL</strong>
+
+                                <small>INCREASING</small>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <div class="frame-bottom">
+
+                        <span>DAY 01</span>
+
+                        <span>WORLD: OVERWORLD</span>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <div class="scroll-indicator">
+
+                <span>SCROLL</span>
+
+                <div class="scroll-line"></div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ABOUT -->
+
+        <section id="sobre" class="about section">
+
+            <div class="section-header">
+
+                <span class="section-number">
+                    01 / 04
+                </span>
+
+                <h2>
+                    ¿QUÉ ES
+                    <span>PERMADEATHCORE</span>?
+                </h2>
+
+                <p>
+                    Una experiencia de Minecraft donde sobrevivir
+                    se convierte en tu objetivo principal.
+                </p>
+
+            </div>
+
+
+            <div class="about-grid">
+
+                <div class="about-text">
+
+                    <p class="large-text">
+                        PermaDeathCore lleva el concepto
+                        Hardcore a otro nivel.
+                    </p>
+
+                    <p>
+                        El mundo comienza relativamente normal,
+                        pero con el paso de los días la dificultad
+                        aumenta y aparecen nuevos desafíos.
+                    </p>
+
+                    <p>
+                        El plugin permite recrear una experiencia
+                        Permadeath con diferentes configuraciones,
+                        eventos, objetos especiales y cambios
+                        progresivos.
+                    </p>
+
+                    <a href="#dificultades" class="text-link">
+                        CONOCER LAS DIFICULTADES
+                        <span>→</span>
+                    </a>
+
+                </div>
+
+
+                <div class="about-cards">
+
+                    <div class="info-card">
+
+                        <div class="card-icon">☠</div>
+
+                        <h3>MUERTE PERMANENTE</h3>
+
+                        <p>
+                            Cada decisión importa. Morir puede
+                            significar el final de tu aventura.
+                        </p>
+
+                    </div>
+
+                    <div class="info-card">
+
+                        <div class="card-icon">⚡</div>
+
+                        <h3>DIFICULTAD PROGRESIVA</h3>
+
+                        <p>
+                            El mundo se vuelve más peligroso
+                            a medida que avanzan los días.
+                        </p>
+
+                    </div>
+
+                    <div class="info-card">
+
+                        <div class="card-icon">◈</div>
+
+                        <h3>EVENTOS ESPECIALES</h3>
+
+                        <p>
+                            El plugin incorpora diferentes
+                            mecánicas y eventos configurables.
+                        </p>
+
+                    </div>
+
+                    <div class="info-card">
+
+                        <div class="card-icon">◆</div>
+
+                        <h3>PERSONALIZABLE</h3>
+
+                        <p>
+                            Configurá la experiencia según
+                            el estilo de tu servidor.
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- DIFFICULTIES -->
+
+        <section id="dificultades" class="difficulty section">
+
+            <div class="section-header">
+
+                <span class="section-number">
+                    02 / 04
+                </span>
+
+                <h2>
+                    LAS
+                    <span>DIFICULTADES</span>
+                </h2>
+
+                <p>
+                    Cuanto más tiempo sobrevivís,
+                    más peligroso se vuelve el mundo.
+                </p>
+
+            </div>
+
+
+            <div class="difficulty-timeline">
+
+                <article class="difficulty-card">
+
+                    <div class="difficulty-number">01</div>
+
+                    <div class="difficulty-content">
+
+                        <div class="difficulty-top">
+
+                            <span class="day">
+                                DÍA 01 — 10
+                            </span>
+
+                            <span class="level easy">
+                                INICIO
+                            </span>
+
+                        </div>
+
+                        <h3>EL COMIENZO</h3>
+
+                        <p>
+                            El mundo comienza con una dificultad
+                            relativamente controlada. Es el momento
+                            para conseguir recursos y prepararse.
+                        </p>
+
+                        <div class="difficulty-tags">
+                            <span>EXPLORACIÓN</span>
+                            <span>RECURSOS</span>
+                            <span>SUPERVIVENCIA</span>
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+                <article class="difficulty-card danger">
+
+                    <div class="difficulty-number">02</div>
+
+                    <div class="difficulty-content">
+
+                        <div class="difficulty-top">
+
+                            <span class="day">
+                                DÍA 10 — 20
+                            </span>
+
+                            <span class="level medium">
+                                PELIGRO
+                            </span>
+
+                        </div>
+
+                        <h3>PRIMER CAMBIO</h3>
+
+                        <p>
+                            Los enemigos comienzan a ser más
+                            peligrosos y la supervivencia requiere
+                            mayor preparación.
+                        </p>
+
+                        <div class="difficulty-tags">
+                            <span>MOBS</span>
+                            <span>EVENTOS</span>
+                            <span>DIFICULTAD</span>
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+                <article class="difficulty-card">
+
+                    <div class="difficulty-number">03</div>
+
+                    <div class="difficulty-content">
+
+                        <div class="difficulty-top">
+
+                            <span class="day">
+                                DÍA 20 — 30
+                            </span>
+
+                            <span class="level hard">
+                                DIFÍCIL
+                            </span>
+
+                        </div>
+
+                        <h3>SUPERVIVENCIA EXTREMA</h3>
+
+                        <p>
+                            Los peligros aumentan y cada salida
+                            puede convertirse en una situación
+                            complicada.
+                        </p>
+
+                        <div class="difficulty-tags">
+                            <span>COMBATE</span>
+                            <span>EXPLORACIÓN</span>
+                            <span>RIESGO</span>
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+                <article class="difficulty-card danger">
+
+                    <div class="difficulty-number">04</div>
+
+                    <div class="difficulty-content">
+
+                        <div class="difficulty-top">
+
+                            <span class="day">
+                                DÍA 30 — 40
+                            </span>
+
+                            <span class="level extreme">
+                                EXTREMO
+                            </span>
+
+                        </div>
+
+                        <h3>EL MUNDO CAMBIA</h3>
+
+                        <p>
+                            La aventura entra en una nueva etapa.
+                            Los jugadores necesitan equipamiento
+                            y estrategia para continuar.
+                        </p>
+
+                        <div class="difficulty-tags">
+                            <span>BOSS</span>
+                            <span>EVENTOS</span>
+                            <span>PELIGRO</span>
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+                <article class="difficulty-card">
+
+                    <div class="difficulty-number">05</div>
+
+                    <div class="difficulty-content">
+
+                        <div class="difficulty-top">
+
+                            <span class="day">
+                                DÍA 40 — 50
+                            </span>
+
+                            <span class="level extreme">
+                                CRÍTICO
+                            </span>
+
+                        </div>
+
+                        <h3>CASI AL LÍMITE</h3>
+
+                        <p>
+                            La dificultad alcanza niveles donde
+                            cualquier error puede terminar con
+                            una larga aventura.
+                        </p>
+
+                        <div class="difficulty-tags">
+                            <span>HARDCORE</span>
+                            <span>RIESGO</span>
+                            <span>SUPERVIVENCIA</span>
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+                <article class="difficulty-card final">
+
+                    <div class="difficulty-number">06</div>
+
+                    <div class="difficulty-content">
+
+                        <div class="difficulty-top">
+
+                            <span class="day">
+                                DÍA 50 — 60
+                            </span>
+
+                            <span class="level final-level">
+                                FINAL
+                            </span>
+
+                        </div>
+
+                        <h3>EL ÚLTIMO DESAFÍO</h3>
+
+                        <p>
+                            La etapa final. Llegar hasta acá significa
+                            haber sobrevivido a una aventura donde
+                            cada día fue más difícil que el anterior.
+                        </p>
+
+                        <div class="difficulty-tags">
+                            <span>DÍA 60</span>
+                            <span>FINAL</span>
+                            <span>☠ PERMADEATH</span>
+                        </div>
+
+                    </div>
+
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <!-- MECHANICS -->
+
+        <section id="mecanicas" class="mechanics section">
+
+            <div class="section-header">
+
+                <span class="section-number">
+                    03 / 04
+                </span>
+
+                <h2>
+                    MECÁNICAS
+                    <span>PRINCIPALES</span>
+                </h2>
+
+                <p>
+                    Todo lo necesario para convertir
+                    tu servidor en una experiencia Permadeath.
+                </p>
+
+            </div>
+
+
+            <div class="mechanics-grid">
+
+                <div class="mechanic">
+                    <span class="mechanic-number">01</span>
+                    <div class="mechanic-icon">☠</div>
+                    <h3>PERMADEATH</h3>
+                    <p>La muerte tiene consecuencias permanentes.</p>
+                </div>
+
+                <div class="mechanic">
+                    <span class="mechanic-number">02</span>
+                    <div class="mechanic-icon">⚔</div>
+                    <h3>MOBS MÁS PELIGROSOS</h3>
+                    <p>
+                        Los enemigos pueden volverse mucho más
+                        difíciles con el avance del mundo.
+                    </p>
+                </div>
+
+                <div class="mechanic">
+                    <span class="mechanic-number">03</span>
+                    <div class="mechanic-icon">◈</div>
+                    <h3>OBJETOS ESPECIALES</h3>
+                    <p>
+                        El plugin incluye elementos especiales
+                        para ampliar la experiencia.
+                    </p>
+                </div>
+
+                <div class="mechanic">
+                    <span class="mechanic-number">04</span>
+                    <div class="mechanic-icon">⚡</div>
+                    <h3>EVENTOS</h3>
+                    <p>
+                        Diferentes eventos pueden modificar
+                        la experiencia de supervivencia.
+                    </p>
+                </div>
+
+                <div class="mechanic">
+                    <span class="mechanic-number">05</span>
+                    <div class="mechanic-icon">◆</div>
+                    <h3>CONFIGURACIÓN</h3>
+                    <p>
+                        Personalizá diferentes aspectos
+                        del funcionamiento del plugin.
+                    </p>
+                </div>
+
+                <div class="mechanic">
+                    <span class="mechanic-number">06</span>
+                    <div class="mechanic-icon">∞</div>
+                    <h3>SUPERVIVENCIA</h3>
+                    <p>
+                        Trabajá en equipo y preparate para
+                        cada nueva etapa.
+                    </p>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- FINAL -->
+
+        <section id="final" class="final-section section">
+
+            <div class="final-box">
+
+                <div class="final-background"></div>
+
+                <div class="final-content">
+
+                    <span class="final-small">
+                        TU AVENTURA COMIENZA AHORA
+                    </span>
+
+                    <h2>
+                        ¿CUÁNTO TIEMPO
+                        <br>
+                        PODÉS <span>SOBREVIVIR?</span>
+                    </h2>
+
+                    <p>
+                        Prepará tus recursos. Organizá tu equipo.
+                        Y no cometas errores.
+                    </p>
+
+                    <a href="#inicio" class="primary-button">
+
+                        <span>VOLVER AL INICIO</span>
+
+                        <b>↑</b>
+
+                    </a>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- FOOTER -->
+
+    <footer>
+
+        <div class="footer-container">
+
+            <div class="footer-logo">
+                ☠ PERMADEATHCORE
+            </div>
+
+            <p>
+                Experiencia Minecraft Hardcore
+            </p>
+
+            <span>
+                © 2026 — Fan website / Proyecto web
+            </span>
+
+        </div>
+
+    </footer>
+
+
+    <button id="scrollTop" class="scroll-top">
+        ↑
+    </button>
+
+
+    <script src="app.js"></script>
+
+</body>
+
+</html>
